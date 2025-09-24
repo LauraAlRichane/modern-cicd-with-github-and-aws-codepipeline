@@ -32,4 +32,5 @@ phases:
       - printf '[{"name":"hotel-app","imageUri":"%s"}]' $ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$repository_name:$IMAGE_TAG > imagedefinitions.json
       
 artifacts:
-  files: imagedefinitions.json
+    files: imagedefinitions.json
+  
